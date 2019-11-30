@@ -6,9 +6,9 @@ box {
 
 body {
   height: 100vh;
-  display: flex;
+  /* display: flex; */
   background: rgb(91, 155, 155);
-  position: center;
+  /* position: center; */
 }
 
 .cards {
@@ -24,7 +24,7 @@ body {
   width: 400px;
   height: 400px;
   margin: 5px;
-  position: center;
+  position: absolute;
   transform: scale(1);
   transform-style: preserve-3d;
   transition: transform .5s;
@@ -52,4 +52,10 @@ flash-card:active {
 
 .front-face {
   transform: rotateY(180deg);
+}
+
+h1{
+  font-family: fantasy;
+  color: whitesmoke;
+  font-size: 50px;
 }
